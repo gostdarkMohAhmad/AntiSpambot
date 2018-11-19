@@ -72,7 +72,7 @@ hours = currentTime.getHours() + 3 ,
 delete warn[message.author.id];
     delete user[message.author.id];
 	const embed500 = new Discord.RichEmbed()
-     .setTitle(`«·„—”· ${message.author.username}#${message.author.discriminator} `)
+     .setTitle(`√á√°√£√ë√ì√° ${message.author.username}#${message.author.discriminator} `)
       .setDescription(":white_check_mark:  | `Spam in server`\n\n name:\n"+`${message.author.username}#${message.author.discriminator}`+"\n Reason:\mute chat\n")
           .setFooter("Dream World")
       .setColor("c91616")
@@ -90,4 +90,4 @@ delete warn[message.author.id];
   }
 });
 
-client.login('NTEzNzM4OTA0MTA1NjQ4MTI4.DtMZ_w.H_0A2xfY1GY1R1fi7IOxHMSpZvg');
+client.login(process.env.BOT_TOKEN);
